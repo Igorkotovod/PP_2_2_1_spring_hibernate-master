@@ -44,6 +44,7 @@ public class MainApp {
          System.out.println("Email = "+user.getEmail());
          System.out.println("Car = "+user.getCar());
          System.out.println();
+         System.out.println("\n" + (userService.getUserByCar("VAZ", 2103)).getFirstName() + " is VAZ 2103 owner");
       }
       context.close();
    }

@@ -46,7 +46,6 @@ public class MainApp {
          System.out.println();
       }
       System.out.println("The " + (userService.getUserByCar("VAZ", 2103)).getFirstName() + " is VAZ 2103 car owner");
-
       context.close();
    }
 }

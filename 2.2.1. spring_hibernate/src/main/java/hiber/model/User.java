@@ -23,9 +23,8 @@ public class User {
    @JoinColumn(name = "car_id")
    private Car car;
 
-
    public User() {}
-   
+
    public User(String firstName, String lastName, String email) {
       this.firstName = firstName;
       this.lastName = lastName;
@@ -72,5 +71,4 @@ public class User {
       this.car = car;
       return car;
    }
-
 }
